@@ -63,13 +63,32 @@ nav a:hover {
 /*hero image */
 
 
-
+#hero-outer{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
 
 #hero-image{
     height: 600px;
     width: 100%;
     /*background-size: cover; */
     background: url(../img/main-image.png) no-repeat center center;
+    
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    
+}
+
+
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 /*end hero image*/
