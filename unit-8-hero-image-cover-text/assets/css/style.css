@@ -54,7 +54,7 @@ nav a:hover {
     border-bottom: 1px solid #777777;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #777777;
 }
 
@@ -62,32 +62,60 @@ nav a:hover {
 
 /*hero image */
 
-
-#hero-outer{
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
-#hero-image{
+#hero-image {
     height: 600px;
     width: 100%;
     background: url(../img/main-image.png) no-repeat center center;
-    
+
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    
+
 }
 
 
-@keyframes hero-zoom{
-    from{
+@keyframes hero-zoom {
+    from {
         transform: scale(1);
     }
     to {
         transform: scale(1.1);
     }
 }
+
+#cover-text, #cover-text h2{
+    color: #ffffff;
+    
+}
+
+#cover-text {
+    
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+    width: 300px;
+    height: 200px;
+    
+    padding-top: 40px;
+    padding-left:10px;
+    
+    background-color: rgba(241, 109, 107, .7);
+    
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+}
+
+
+
 
 /*end hero image*/
