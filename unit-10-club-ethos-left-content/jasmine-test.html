@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        
+body {
+    font-family: helvetica, sans-serif;
+}
+
+.main-container {
+   width: 75%;
+   margin: 0 auto;
+   height: 700px;
+}
+
+.vertically-centered {
+   /*width: 100%;*/
+   height: 350px;
+   background-color: #fafafa;
+   top: 50%;
+   position: relative;
+   transform: translateY(-50%);
+}
+
+.box-container {
+   text-align: center;
+}
+
+.centered-boxes {
+   text-align: left;
+   width: 200px;
+   height: 200px;
+   display: inline-block;
+   overflow: auto;
+   padding: 15px;
+}
+
+footer  p{
+   width: 85%;
+   margin:0 auto;
+}
+
+    </style>
+</head>
+
+<body>
+     <div class="main-container">
+        <div class="vertically-centered">
+            <div class="box-container">
+                <p class="centered-boxes">
+                    Centering content with CSS is a core required skill if you want to become a web developer.
+                </p>
+                <p class="centered-boxes">
+                    How can we centre a block element horizontally? Setting the value auto for left and right margin will centre any block level element.
+                </p>
+                <p class="centered-boxes">
+                    In order to centre inline-block elements, we need to add the text-align property to the parent of the inline-block.</p>
+                <p class="centered-boxes">
+                    Vertical centring is a bit trickier. There is a CSS property that can help us achieve our task. The transform property with a translateY value will move the element on the Y-axis (Vertical axis) on the screen.</p>
+            </div>
+            <footer>
+                <p>
+                    The footer element is a structural element used to identify the footer of a page, document, article, or section. A footer typically contains copyright and authorship information or navigational elements pertaining to the contents of the parent element.
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

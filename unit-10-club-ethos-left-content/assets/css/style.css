@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Lato;
+    color: #777777;
+}
+
+h2 {
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+
+}
+
+/*header*/
+
+ul {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    text-transform: uppercase;
+}
+
+#logo,
+#menu {
+    line-height: 75px;
+}
+
+
+nav li {
+    float: right;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
+
+/*end header*/
+
+/*hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../img/main-image.png) no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #ffffff;
+
+}
+
+#cover-text {
+
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+}
+
+
+/*end hero image*/
+
+/* club ethos divs*/
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width: 33px;
+    margin: 0 auto;
+}
+
+
+
+hr {
+    border-top: 1px solid #cccccc;
+    width: 250px;
+    margin: 5px 0;
+}
+
+
+.left-about-heading {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+/* end club ethos divs*/
