@@ -141,6 +141,10 @@ nav a:hover {
     margin: auto;
 }
 
+p{
+    font-size: 90%;
+}
+
 hr {
     border-top: 1px solid #cccccc;
     width: 250px;
