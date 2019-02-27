@@ -138,7 +138,7 @@ nav a:hover {
 }
 
 #center-about {
-    width: 33px;
+    width: 33%;
     margin: 0 auto;
 }
 
@@ -179,5 +179,6 @@ hr {
 .right-about-heading p{
     text-align: right;
 }
+
 
 /* end club ethos divs*/
