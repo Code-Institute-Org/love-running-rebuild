@@ -12,6 +12,10 @@ body {
     color: #777777;
 }
 
+p {
+    font-size: 90%;
+}
+
 h2 {
     font-family: Oswald;
     text-transform: uppercase;
