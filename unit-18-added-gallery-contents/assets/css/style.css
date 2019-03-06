@@ -145,7 +145,7 @@ nav a:hover {
     margin: auto;
 }
 
-p{
+p {
     font-size: 90%;
 }
 
@@ -191,24 +191,20 @@ hr {
     height: 100%;
 }
 
-.right-about-heading h2 
-{
+.right-about-heading h2 {
     text-align: right
 }
 
-.right-about-heading hr
-{
-    float:right;
+.right-about-heading hr {
+    float: right;
 }
 
-.right-about-heading p{
-    text-align: right; 
+.right-about-heading p {
+    text-align: right;
 }
 
 
 /* end club ethos divs 2*/
-
-
 
 #welcome {
     /* padding-top: 30px; */
@@ -221,39 +217,41 @@ hr {
 }
 
 /*times*/
+
 #times {
     background-image: url(../img/dublin-city.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:100%;
+    width: 100%;
     overflow: hidden;
 }
 
-#times div{
-    color:#fafafa;
-    background-color:rgba(0,0,0, .6);      
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
     width: 19%;
     height: 300px;
-    margin-left: 4px; 
-    float:left;
+    margin-left: 4px;
+    float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    }
-    
-    #times div h2{
-        color:#fafafa;
-    }
+}
+
+#times div h2 {
+    color: #fafafa;
+}
 
 /*end times*/
 
 /* social networks*/
 
-footer{
+footer {
     height: 150px;
 }
+
 .social-networks {
-  
+
     text-align: center;
 
 }
@@ -277,14 +275,15 @@ footer{
     clear: both;
     /* Prevent vertical gaps */
     line-height: 0;
-     
-    
-    column-count:         4;
-    column-gap:           0px;  
-  }
-  
-  #photos img {
-    width: 100% ;
-  }
-  
-  /*end gallery*/
+
+
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photos img {
+    width: 100%;
+}
+
+/*end gallery*/
+
